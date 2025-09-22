@@ -1,0 +1,8 @@
+Link Artikel Medium :
+https://medium.com/@yanfaanandika21/mengenal-hyperopt-algoritma-pintar-untuk-optimasi-hyperparameter-9c8402fe76bd
+
+Link Github :
+https://github.com/yanfa121/Basic-Hyperparameter-Tuning-with-Hyperopt
+
+Link Video Explanation :
+https://drive.google.com/file/d/1ojOAeOOqWzbqzpwMIbkzJziI397KymbK/view?usp=drive_link

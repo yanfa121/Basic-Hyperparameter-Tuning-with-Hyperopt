@@ -1,48 +1,42 @@
-# Hyperopt - Hyperparameter Optimization
-## 📌 Apa itu Hyperopt?
+# Hyperopt – Hyperparameter Optimization
+## 📌 What is Hyperopt?
+Hyperopt
 
+Hyperopt is a Python library for automatic hyperparameter optimization using probabilistic algorithms such as Random Search and Tree-structured Parzen Estimators (TPE).
 
-## Hyperopt
-Hyperopt adalah library Python untuk optimasi hyperparameter secara otomatis menggunakan algoritma probabilistik seperti Random Search dan Tree of Parzen Estimators (TPE).
+## ⚡ Key Concepts
 
+Search Space → the range of hyperparameter values (discrete, continuous, log-uniform, etc.)
 
-## ⚡ Konsep Utama
+Objective Function → the function to be minimized or maximized (e.g., error or loss)
 
-Search Space → ruang nilai hyperparameter (diskrit, kontinyu, log-uniform, dsb).
+Optimization Algorithm → the search method (TPE, Random Search)
 
-Objective Function → fungsi yang ingin diminimalkan/maksimalkan (mis. error/loss).
+Trials → stores the results of each experiment
 
-Optimization Algorithm → metode pencarian (TPE, Random).
+## 🛠 How It Works
 
-Trials → menyimpan hasil setiap percobaan.
+Define the search space (e.g., hp.choice, hp.uniform, etc.)
 
+Define the objective function (e.g., validation accuracy or loss)
 
-## 🛠 Cara Kerja
+Run the optimization using fmin() with an algorithm such as tpe.suggest or rand.suggest
 
-Tentukan ruang pencarian (hp.choice, hp.uniform, dll).
+Retrieve the best hyperparameter configuration
 
-Definisikan fungsi objective (validasi akurasi/loss).
+## ✅ Advantages
 
-Jalankan optimasi dengan fmin() dan algoritma (tpe.suggest, rand.suggest).
+More efficient than traditional grid search or random search
 
-Ambil hasil hyperparameter terbaik.
+Supports various ML and DL models (Scikit-learn, XGBoost, PyTorch, TensorFlow)
 
+Supports parallel execution to speed up optimization
 
-## ✅ Kelebihan
+## ⚠️ Limitations
 
-Efisien dibanding grid search/random search biasa.
+Official documentation is relatively brief
 
-Mendukung model ML & DL (Scikit-learn, XGBoost, PyTorch, TensorFlow).
-
-Bisa paralel untuk mempercepat pencarian.
-
-
-## ⚠️ Kekurangan
-
-Dokumentasi resmi relatif singkat.
-
-Visualisasi terbatas dibanding Optuna.
-
+Limited visualization features compared to Optuna
 
 ## Contact
 - Yanfa Anandika
